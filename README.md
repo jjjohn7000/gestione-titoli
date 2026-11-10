@@ -1,6 +1,6 @@
 # Gestione Titoli
 
-Registro personale delle operazioni in titoli (azioni, ETF, obbligazioni…), pensato per chi opera con **Fineco**.
+Registro personale delle operazioni in titoli (azioni, ETF, obbligazioni…), con il calcolo automatico di commissioni, imposte e risultati.
 Calcola da solo commissioni, Tobin Tax, tasse (26% / 12,5%), prezzo medio di carico, prezzo alla pari, minusvalenze da
 recuperare e il riepilogo mensile e annuale.
 
@@ -76,10 +76,10 @@ versione pubblicata (si può spegnere da Aiuto → Controlla gli aggiornamenti a
 
 Gestione Titoli è uno strumento personale di registrazione e calcolo, distribuito gratuitamente e **senza alcuna
 garanzia**. I calcoli di tasse e commissioni sono indicativi: per dichiarazioni e verifiche fanno fede i documenti
-della banca e del tuo consulente fiscale. Non è collegato né approvato da Fineco o da altre banche.
+della banca e del tuo consulente fiscale. Non è collegato né approvato da alcuna banca o intermediario.
 
 ## © Diritti
 
 © 2026 Giovanni Orlando. Tutti i diritti riservati. Gestione Titoli è gratuito, ma il suo codice è protetto dal diritto
 d'autore: non è consentito copiarlo, modificarlo, decompilarlo o ridistribuirlo, in tutto o in parte, senza
-autorizzazione scritta dell'autore. «Fineco» e gli altri marchi citati appartengono ai rispettivi proprietari.
+autorizzazione scritta dell'autore. I marchi eventualmente citati appartengono ai rispettivi proprietari.
