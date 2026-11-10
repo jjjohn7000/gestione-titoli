@@ -1,16 +1,17 @@
-**Gestione Titoli beta 0.33.1** per Windows e Android.
+**Gestione Titoli beta 0.35.0** per Windows e Android.
 
 ### Scarica
-- **Windows 10 / 11:** `GestioneTitoli.exe`: non serve installarlo, si avvia con un doppio clic.
+- **Windows 10 / 11:** `GestioneTitoli.exe` — non serve installarlo, si avvia con un doppio clic.
 - **Android 8.0 o successivo:** `GestioneTitoli.apk`
 
 Le istruzioni di installazione sono nella [pagina del progetto](https://github.com/jjjohn7000/gestione-titoli#readme).
+*(I file «Source code» qui sotto li aggiunge GitHub da solo e contengono solo la pagina di istruzioni, non il programma: non serve scaricarli.)*
 
 ### Novità di questa versione
-- Nei campi numerici con i decimali già tutti scritti (es. 30,0000 €) la cifra digitata dopo la virgola sostituisce quella alla destra del cursore.
-- Un archivio nuovo chiede di impostare almeno un utente prima di inserire il primo titolo.
-- Su Windows, gli acquisti e le vendite della posizione selezionata tornano in sezioni separate sotto l'elenco.
-- In «Se vendo a…» c'è la colonna **%** di guadagno o perdita.
-- **Copia e incolla** delle posizioni tra Posizioni aperte, Test e Posizioni chiuse.
+- **Finestra del titolo** (Windows): doppio clic su una posizione per vedere e modificare tutti i suoi acquisti e vendite parziali.
+- **Nuova posizione** senza prezzo obiettivo: parte dal prezzo alla pari, lo cambi dopo.
+- Tolti **Cedole** e **Rettifica** da posizioni, operazioni chiuse ed Esporta in Excel.
+- Avviso di **nuova versione** all'avvio (Windows), con il link per scaricarla.
+- In **Informazioni** la dicitura di copyright © 2026 Giovanni Orlando.
 
 L'elenco completo è nel programma, in **Aiuto → Novità delle versioni**.
