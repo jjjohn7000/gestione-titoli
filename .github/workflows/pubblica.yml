@@ -1,0 +1,25 @@
+# Pubblica una release con i file di questo ramo («carico»): VERSIONE, NOTE.md, GestioneTitoli.exe, GestioneTitoli.apk.
+# Il ramo viene sostituito a ogni versione, così il repository non accumula i file delle versioni vecchie.
+name: Pubblica versione
+on:
+  push:
+    branches: [carico]
+permissions:
+  contents: write
+jobs:
+  pubblica:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Crea o aggiorna la release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          V=$(tr -d ' \r\n' < VERSIONE)
+          if gh release view "v$V" >/dev/null 2>&1; then
+            gh release edit "v$V" --title "Gestione Titoli beta $V" --notes-file NOTE.md --latest
+            gh release upload "v$V" GestioneTitoli.exe GestioneTitoli.apk --clobber
+          else
+            gh release create "v$V" --target main --title "Gestione Titoli beta $V" --notes-file NOTE.md --latest \
+              GestioneTitoli.exe GestioneTitoli.apk
+          fi
