@@ -77,3 +77,9 @@ versione pubblicata (si può spegnere da Aiuto → Controlla gli aggiornamenti a
 Gestione Titoli è uno strumento personale di registrazione e calcolo, distribuito gratuitamente e **senza alcuna
 garanzia**. I calcoli di tasse e commissioni sono indicativi: per dichiarazioni e verifiche fanno fede i documenti
 della banca e del tuo consulente fiscale. Non è collegato né approvato da Fineco o da altre banche.
+
+## © Diritti
+
+© 2026 Giovanni Orlando. Tutti i diritti riservati. Gestione Titoli è gratuito, ma il suo codice è protetto dal diritto
+d'autore: non è consentito copiarlo, modificarlo, decompilarlo o ridistribuirlo, in tutto o in parte, senza
+autorizzazione scritta dell'autore. «Fineco» e gli altri marchi citati appartengono ai rispettivi proprietari.
