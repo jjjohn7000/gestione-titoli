@@ -35,7 +35,9 @@ I link portano sempre all'**ultima versione**. Le versioni precedenti e le note 
 4. Al primo avvio scegli dove tenere l'archivio (un file `.db`) e imposta il primo **utente**: da lì puoi inserire
    le tue posizioni.
 
-Per aggiornare: scarica il nuovo `GestioneTitoli.exe` e sostituisci quello vecchio. L'archivio non si tocca.
+Per aggiornare: scarica il nuovo `GestioneTitoli.exe`, chiudi il programma e sostituisci quello vecchio. L'archivio
+non si tocca. Dalla beta 0.34.0 il programma avvisa da solo all'avvio quando esce una versione nuova, con il link per
+scaricarla (anche da **Aiuto → Cerca aggiornamenti…**).
 
 ## 📱 Installare su Android
 
@@ -67,6 +69,8 @@ Per aggiornare: scarica e installa il nuovo `.apk` sopra quello vecchio. I dati 
 
 Il programma non invia nulla su internet: i dati restano nel file `.db` che scegli tu, sul tuo PC, sul telefono o
 nella cartella cloud che usi. Su Windows, alla chiusura viene fatta una copia di sicurezza dell'archivio.
+L'unico accesso a internet è il controllo degli aggiornamenti: il programma legge in questa pagina qual è l'ultima
+versione pubblicata (si può spegnere da Aiuto → Controlla gli aggiornamenti all'avvio).
 
 ## ⚠️ Avvertenze
 
