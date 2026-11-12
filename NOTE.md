@@ -1,4 +1,4 @@
-**Gestione Titoli beta 0.35.0** per Windows e Android.
+**Gestione Titoli beta 0.36.0** per Windows e Android.
 
 ### Scarica
 - **Windows 10 / 11:** `GestioneTitoli.exe` — non serve installarlo, si avvia con un doppio clic.
@@ -8,10 +8,10 @@ Le istruzioni di installazione sono nella [pagina del progetto](https://github.c
 *(I file «Source code» qui sotto li aggiunge GitHub da solo e contengono solo la pagina di istruzioni, non il programma: non serve scaricarli.)*
 
 ### Novità di questa versione
-- **Finestra del titolo** (Windows): doppio clic su una posizione per vedere e modificare tutti i suoi acquisti e vendite parziali.
-- **Nuova posizione** senza prezzo obiettivo: parte dal prezzo alla pari, lo cambi dopo.
-- Tolti **Cedole** e **Rettifica** da posizioni, operazioni chiuse ed Esporta in Excel.
-- Avviso di **nuova versione** all'avvio (Windows), con il link per scaricarla.
-- In **Informazioni** la dicitura di copyright © 2026 Giovanni Orlando.
+- **Pulsanti uniformati** (Windows): in Posizioni aperte e Test i pulsanti dell'elenco (Modifica dati, Duplica, Chiudi, Elimina, Nuova posizione) sono passati sotto la tabella, come nella sezione «Acquisti e vendite parziali».
+- **Semplificazione**: tolti i colori di evidenza rosso/giallo e i filtri «Normali / Gialli / Rossi»; le righe restano colorate solo in base all'utente. Vale anche per l'app Android.
+- **Frecce del centesimo** (Windows): in «Se vendo a…», a destra del campo Prezzo, le frecce ▲▼ alzano o abbassano il prezzo di un centesimo (±0,01 €).
+- **Colonne più marcate a scelta** (Windows): dal menu delle colonne (tasto destro sull'intestazione) puoi scrivere una colonna con un carattere un po' più marcato, per farla risaltare.
+- **Schede riordinabili** (Windows): trascini le schede in alto per cambiarne l'ordine, che viene ricordato.
 
 L'elenco completo è nel programma, in **Aiuto → Novità delle versioni**.
