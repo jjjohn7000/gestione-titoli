@@ -1,0 +1,22 @@
+name: Pubblica release
+on:
+  push:
+    branches: ['rel-*']
+permissions:
+  contents: write
+jobs:
+  pubblica:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Crea la release versionata
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          VER="${GITHUB_REF_NAME#rel-}"
+          gh release delete "v$VER" --yes --cleanup-tag || true
+          gh release create "v$VER" dist/GestioneTitoli.exe dist/GestioneTitoli.apk \
+            --target main \
+            --title "Gestione Titoli beta $VER" \
+            --notes-file note_release.md \
+            --latest
